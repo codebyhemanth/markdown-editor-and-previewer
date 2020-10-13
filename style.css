@@ -1,0 +1,31 @@
+body{
+background-color:#e27d60;
+}
+.container{
+  display:grid;
+  background:black;
+  width:100%;
+  color:white;
+  align-text:center;
+  min-height:500px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:10fr;
+  grid-gap:30px 20px;
+  grid-template-area:"editor preview";
+  
+  padding:10px 20px 10px 8px;
+  
+}
+.editor{
+  min-height:400px;
+  width:80%;
+  padding:10px 8px 8px 10px;
+
+ 
+}
+.preview{
+  background:#edf5e1;
+  width:95%;
+  padding:10px 20px 8px 10px;
+  color:#2e1114
+}
